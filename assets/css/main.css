@@ -233,8 +233,9 @@ header #menu-btn:hover{
 /*--------------------- 4- Home Area CSS (Start) ---------------------*/
 .home{
     padding: 0rem 5%;
-    background-color: var(--pink);
-    min-height: 100vh;
+    /* background-color: var(--pink); */
+    background-color: black;
+    min-height: 20vh;
 }
 
 .home .box-container{
@@ -251,7 +252,10 @@ header #menu-btn:hover{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 4rem;
+    color:black
+
 }
+
 
 .home .image{
     text-align: center;
@@ -323,7 +327,7 @@ header #menu-btn:hover{
     text-align: center;
 }
 .contact-home:hover{
-    background-color: #e0dddd;
+    background-color:black;
     color: rgb(69, 69, 70);
 }
 
@@ -368,13 +372,13 @@ header #menu-btn:hover{
 
 .about .content h2{
     font-size: 3rem;
-    color: var(--white);
+    color_:black
     padding-bottom: 1rem;
 }
 
 .about .content > p{
     font-size: 1.6rem;
-    color: var(--grey);
+    color:black;
     line-height: 1.6;
     padding-bottom: 1rem;
 }
@@ -402,7 +406,7 @@ header #menu-btn:hover{
 
 .about .content .about-info .info h4{
     font-size: 1.6rem;
-    color: var(--white);
+    color:black;
     padding-bottom: 1rem;
 }
 
@@ -536,7 +540,7 @@ header #menu-btn:hover{
     text-align: center;
 }
 .contact-about:hover{
-    background-color: #e0dddd;
+    background-color:black;
     color: rgb(69, 69, 70);
 }
 
@@ -567,6 +571,7 @@ header #menu-btn:hover{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     gap: 1.5rem;
+    background-color: black;
 }
 
 .service-item{

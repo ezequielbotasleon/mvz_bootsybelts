@@ -233,8 +233,12 @@ header #menu-btn:hover{
 /*--------------------- 4- Home Area CSS (Start) ---------------------*/
 .home{
     padding: 0rem 5%;
-    /* background-color: var(--pink); */
-    background-color: black;
+    background-color: black; 
+    /*.btn:hover: black;*/
+    /*background-image: url("../images/Home/LOGO1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;*/
     min-height: 20vh;
 }
 
@@ -268,7 +272,8 @@ header #menu-btn:hover{
 .home .image img{
     height: 40rem;
     width: 40rem;
-    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
+    /*border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;*/
+    border-radius: 5%;
     object-fit:cover;
 
 }
@@ -307,10 +312,11 @@ header #menu-btn:hover{
 }
 
 .home .content h1 span{
-    color: var(--blue);
+    /*color: var(--blue);*/
+    color: yellow;
 
 }
-
+/*cambair color de letras autoacompletadas que escriben en automatico*/
 .home .content p{
     font-size: 1.7rem;
     font-weight: 400;
@@ -372,7 +378,7 @@ header #menu-btn:hover{
 
 .about .content h2{
     font-size: 3rem;
-    color_:black
+    color_:black;
     padding-bottom: 1rem;
 }
 
